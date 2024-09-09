@@ -12,7 +12,6 @@ int main()
     testColor.testPairToNumber(TelCoColorCoder::MajorColor::VIOLET, TelCoColorCoder::MinorColor::SLATE, 25);
 
     testColor.testPrintColorAndPairToFile();
-
     return 0;
 }
 
