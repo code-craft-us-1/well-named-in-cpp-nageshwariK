@@ -29,4 +29,8 @@ namespace test
     {
         assert(!TelCoColorCoder::PrintColorAndPairToFile());
     } 
+    void testColorPair::testPrintToConsole()
+    {
+        assert(!TelCoColorCoder::PrintColorsAndPairNumberToConsole());
+    }
 }

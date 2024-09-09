@@ -12,6 +12,7 @@ namespace test
             TelCoColorCoder::MajorColor major,
             TelCoColorCoder::MinorColor minor,
             int expectedPairNumber);
-        void testPrintColorAndPairToFile();        
+        void testPrintColorAndPairToFile();   
+        void testPrintToConsole();
     };
 }

@@ -40,6 +40,7 @@ namespace TelCoColorCoder
 
     ColorPair GetColorFromPairNumber(int pairNumber);
     int GetPairNumberFromColor(MajorColor major, MinorColor minor);
-    void PrintColorsAndPairNumberToConsole();
+    int PrintColorsAndPairNumberToConsole();
     int PrintColorAndPairToFile();
+    int Print(std::string fileName);
 }
